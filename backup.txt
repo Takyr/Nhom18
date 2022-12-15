@@ -1,0 +1,19 @@
+Navbar.js
+
+import './Navbar.css'
+import cartlogo from '../Components/assets/background.png'
+import userprofile from '../Components/assets/objection.png'
+
+
+
+
+      <Link to ='/cart'>
+        <div className='cart-btn'>
+            <img src={cartLogo} alt="no img" />
+            <span className='cart-icon-css'>0</span>
+        </div>
+        </Link>
+
+        <Link to="userprofile">
+            <img src={profileLogo} className='profile-icon' />
+        </Link>
